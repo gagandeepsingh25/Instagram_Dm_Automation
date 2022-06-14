@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
-driver = webdriver.Chrome('/home/webtunix/Downloads/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 
 
 def login(username, your_password):
